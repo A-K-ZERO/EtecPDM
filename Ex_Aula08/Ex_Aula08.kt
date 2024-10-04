@@ -67,4 +67,6 @@ fun calculoCubo()
 
 fun retornaCaracteres2(palavra : String) = println("a palavra $palavra possui ${palavra.length} caracteres")
 
-fun calculoCubo2(n : Int) = print("$n ao cubo e igual a ${n * n * n}")
+fun calculoCubo2(n : Int) = println("$n ao cubo e igual a ${n * n * n}")
+
+fun conversorMilhas2(milhas : Float) = println("$milhas milha(s) equivale(m) a ${milhas * 1.6} kilometro(s).")
